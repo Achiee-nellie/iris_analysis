@@ -69,7 +69,7 @@ def load_and_explore_data():
         return df
         
     except Exception as e:
-        print(f"❌ Error loading dataset: {e}")
+        print(f" Error loading dataset: {e}")
         return None
 
 def basic_data_analysis(df):
@@ -153,7 +153,7 @@ def basic_data_analysis(df):
         return species_means, correlation_matrix
         
     except Exception as e:
-        print(f"❌ Error in data analysis: {e}")
+        print(f" Error in data analysis: {e}")
         return None, None
 
 def create_visualizations(df, species_means, correlation_matrix):
@@ -278,13 +278,13 @@ def create_visualizations(df, species_means, correlation_matrix):
         print()
         
     except Exception as e:
-        print(f"❌ Error creating visualizations: {e}")
+        print(f" Error creating visualizations: {e}")
 
 def main():
     """
     Main function to orchestrate the analysis
     """
-    print("🌺 IRIS DATASET ANALYSIS 🌺")
+    print(" IRIS DATASET ANALYSIS ")
     print("Data Analysis with Pandas & Visualization with Matplotlib")
     print("=" * 60)
     print()
@@ -292,20 +292,20 @@ def main():
     # Load and explore data
     df = load_and_explore_data()
     if df is None:
-        print("❌ Failed to load dataset. Exiting...")
+        print(" Failed to load dataset. Exiting...")
         return
     
     #  Basic data analysis
     species_means, correlation_matrix = basic_data_analysis(df)
     if species_means is None:
-        print("❌ Failed to perform data analysis. Exiting...")
+        print(" Failed to perform data analysis. Exiting...")
         return
     
     # Create visualizations
     create_visualizations(df, species_means, correlation_matrix)
     
     print("=" * 60)
-    print("✅ ANALYSIS COMPLETE!")
+    print(" ANALYSIS COMPLETE!")
     print("=" * 60)
     print()
     print("SUMMARY OF DELIVERABLES:")
