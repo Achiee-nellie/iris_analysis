@@ -77,12 +77,12 @@ iris-analysis/
 ### Task 3: Data Visualization
 Creates six comprehensive visualizations:
 
- ** Line Chart**: Feature trends across species evolution
- ** Bar Chart**: Average petal length comparison by species
- ** Histogram**: Sepal length distribution with statistics
- ** Scatter Plot**: Sepal vs petal length relationship
- ** Correlation Heatmap**: Feature correlation matrix
- ** Box Plots**: Feature distributions across species
+ Line Chart: Feature trends across species evolution
+ Bar Chart: Average petal length comparison by species
+ Histogram: Sepal length distribution with statistics
+ Scatter Plot: Sepal vs petal length relationship
+ Correlation Heatmap: Feature correlation matrix
+ Box Plots: Feature distributions across species
 
 ##  Key Findings
 
